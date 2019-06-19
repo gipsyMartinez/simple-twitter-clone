@@ -31,12 +31,6 @@ class App extends React.Component {
           <button>guardar</button>
         </form>
         <Wall items={this.state.items} />
-        <p>only this paragraph will get the style assas)</p>
-        <style jsx>{`
-          p {
-            color: red;
-          }
-        `}</style>
       </div>
     );
   }

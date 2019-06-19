@@ -1,9 +1,10 @@
-import css from "styled-jsx/css";
+// import css from "styled-jsx/css";
 
-const styles = css`
-  .main {
-    background: #ffffff;
-  }
-`;
+// const styles = css`
+//   .main {
+//     background: #ffffff;
+//   }
+// `;
 
-export default styles;
+// export default styles;
+// //
