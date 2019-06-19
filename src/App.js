@@ -1,5 +1,5 @@
 import React from "react";
-import List from "./List";
+import Wall from "./components/Wall";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,7 +30,13 @@ class App extends React.Component {
           <input value={this.state.term} onChange={this.onChange} />
           <button>guardar</button>
         </form>
-        <List items={this.state.items} />
+        <Wall items={this.state.items} />
+        <p>only this paragraph will get the style assas)</p>
+        <style jsx>{`
+          p {
+            color: red;
+          }
+        `}</style>
       </div>
     );
   }
